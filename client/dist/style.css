@@ -13,3 +13,30 @@ body {
 .groceries {
   margin: 10px;
 }
+
+.groceryItem, .groceryHeaders{
+  display: flex;
+}
+
+.groceryHeaders {
+  font-weight: bold;
+}
+
+.col {
+  flex-basis: 50%;
+}
+
+.inputs {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.splits {
+  padding: 5px;
+  margin: 5px;
+}
+
+.strike {
+  text-decoration: line-through;
+}
